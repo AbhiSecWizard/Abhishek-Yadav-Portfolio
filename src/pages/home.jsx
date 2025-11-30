@@ -1,11 +1,9 @@
-import { SplineScene } from "../components/SplineElement"
-export const Home = ()=>{
-       return (
-        <>
-        <h1 className="text-3xl font-bold underline">
-            Home Pages
-        </h1>
-        <SplineScene />
-        </>
-       )
+export const Home = () => {
+  return (
+    <div>   
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the home page of my portfolio website.</p>
+    </div>
+  );
 }
+

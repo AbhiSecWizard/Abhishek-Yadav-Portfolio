@@ -1,9 +1,9 @@
-import { Header } from "./app_layout/Header.jsx";
-import { BgcPage } from "./component/BgcPage.jsx";
+import { Layout } from "./app_layout/Layout"
+
 export const App = () => {
-return (
-     <BgcPage>
-        <Header/>
-     </BgcPage>
-  )
+    return (
+        <>
+        <Layout/>
+        </>
+    )
 }

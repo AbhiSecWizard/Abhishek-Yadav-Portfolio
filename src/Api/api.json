@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Todo List App",
+      "image": "./images/Todo_image.png",
+      "description": "Personal portfolio website showcasing my work.",
+      "technologies": ["React", "Tailwind CSS", "JavaScript"],
+      "github": "",
+      "live": "https://abhishekyadav-todo-2nd.netlify.app/"
+    },
+   {
+      "id": 1,
+      "title": "Weather App",
+      "image": "./images/WeatherApp.png",
+      "description": "Current Weather App",
+      "technologies": ["React", "Tailwind CSS", "JavaScript","Api"],
+      "github": "https://github.com/AbhiSecWizard/WeatherApp",
+      "live": "https://weatherapp69g.netlify.app/"
+    },
+    {
+      "id": 1,
+      "title": "Tic Tac Toe Game",
+      "image": "./images/TicTacToe.png",
+      "description": "This is copy from You tube but i still learn very important concept which is probebliyt",
+      "technologies": ["React", "Tailwind CSS", "JavaScript"],
+      "github": "https://github.com/AbhiSecWizard/Tic-Tac-Toe",
+      "live": "https://tiktactoe69g.netlify.app/"
+    }
+  ]
+}
+

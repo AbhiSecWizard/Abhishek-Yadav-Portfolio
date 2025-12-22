@@ -1,0 +1,72 @@
+/* IMAGE BACKGROUND CARD */
+.image_bg {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+}
+
+.image_bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translate(12px, -10px) rotate(-4deg);
+  background-color: yellowgreen;
+  border-radius: 1.5rem;
+  z-index: -1;
+}
+
+/* SCROLLBAR (OPTIONAL – DESKTOP ONLY FEEL) */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 10px;
+}
+
+/* SPLINE RESPONSIVE FIX */
+.custom-spline {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+.carousal{
+margin: 100px;
+width:90%;
+border: 5px rgba(0, 119, 255, 0.842);
+display: flex;
+overflow-x: auto;
+}
+.carousal::-webkit-scrollbar{
+  display: none;
+}
+.group_of_card{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:1em;
+animation: spin 5s infinite linear;
+padding-right: 1em;
+}
+.elem_of_card{
+flex: 0 0 5em;
+height: 5em;
+padding: 1em;
+background: cornflowerblue;
+font-size: 3rem;
+border-radius: .2em;
+align-items: center;
+align-content: center;
+}
+
+@keyframes spin {
+  from {translate: 0;}
+  to{translate: -100%;}
+}
